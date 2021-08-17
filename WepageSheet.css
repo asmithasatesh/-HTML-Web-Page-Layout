@@ -12,6 +12,12 @@
     text-align: center;
     font-size: x-large;
   }
+  article
+  {
+      padding: 10px;
+      margin: 5px ;
+      border: 2px solid mediumblue;
+  }
   .col-2 {
     display: flex;
     flex-direction: column;
@@ -35,16 +41,16 @@
   header{
     background-color: forestgreen;
     font-size: x-large;
-    padding: 7px;
-    font-size: 30px;
+    padding: 2px;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Garamond';
     text-align: center;
   }
 footer {
     background-color: forestgreen;
-    padding: 6px;
-    font-size: 30px;
+    padding: 2px;
+    font-size: 20px;
     font-weight: bolder;
     font-family: 'Garamond';
     text-align: center;
