@@ -1,0 +1,69 @@
+html
+{
+    font-family: Garamond;
+}
+
+/* Define properties for Header */
+.HeaderContainer
+{
+background-color: tomato;
+display: flex;
+flex-flow: column wrap;
+align-content: center;
+padding: 10px;
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Lucida Console';
+}
+/* Define properties for Group of articles */
+.ArticleContainer
+{
+    background-color: aqua;
+    order: 2;
+    flex: 3;
+}
+/* Define properties for Articles */
+article
+{
+    border:  solid rgb(17, 207, 96);
+    border-width: 4px 6px;
+    padding: 10px 10px;
+}
+/* Define properties for Left side bar */
+.LeftSideBarContainer
+{
+    background-color: rgb(110, 10, 52);
+    flex: 1;
+    order: 1;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+}
+/* Define properties for Right side bar */
+.RightSideBarContainer
+{
+    background-color: palevioletred;
+    flex: 1;
+    order: 3;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+/* Define properties for Footer */
+.FooterContainer
+{
+    background-color: forestgreen;
+    flex-flow: column wrap;
+    align-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Console';
+}
+.MainContainer
+{
+    display: flex;
+    flex-wrap: row wrap;
+}
